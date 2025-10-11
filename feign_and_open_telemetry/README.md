@@ -32,9 +32,9 @@ The architecture demonstrates how modern microservices handle:
 │   Eureka Server │    │   Service 1     │    │   Service 2     │    │     Zipkin      │
 │   (Port: 8761)  │    │   (Port: 8080)  │    │   (Port: 8081)  │    │   (Port: 9411)  │
 │                 │    │                 │    │                 │    │                 │
-│ • Service       │◄───┤ • Feign Client  │───►│ • REST API      │    │ • Distributed    │
+│ • Service       │◄───┤ • Feign Client  │───►│ • REST API      │    │ • Distributed   │
 │   Registry      │    │ • Service       │    │ • Business      │    │   Tracing       │
-│ • Health Check  │    │   Discovery     │    │   Logic         │    │ • Observability  │
+│ • Health Check  │    │   Discovery     │    │   Logic         │    │ • Observability │
 │                 │    │ • OpenTelemetry │    │ • OpenTelemetry │    │                 │
 └─────────────────┘    └─────────────────┘    └─────────────────┘    └─────────────────┘
                                 │                       │                       ▲
