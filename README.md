@@ -15,6 +15,7 @@ Each subfolder contains a focused project that demonstrates a specific concept, 
 | Project | Description |
 |--------|-------------|
 | [usercheck](./usercheck) | ⚡ Demonstrates how tech giants check username availability at scale using Bloom Filters, Redis Caching, and Database lookups. Inspired by [ByteMonk's video](https://www.youtube.com/watch?v=_l5Q5kKHtR8). |
+| [feign_and_open_telemetry](./feign_and_open_telemetry) | 🔗 Microservices communication with Spring Cloud OpenFeign, Netflix Eureka service discovery, and OpenTelemetry distributed tracing. Features Zipkin for trace visualization and custom spans for business operations. |
 | *More coming soon...* | Projects like rate limiting, authentication systems, microservices with Kafka, etc. will be added here over time. |
 
 ---
@@ -27,6 +28,7 @@ Each subfolder contains a focused project that demonstrates a specific concept, 
 - **Redis**
 - **PostgreSQL**
 - **Maven**
+- **Gradle**
 
 ---
 
